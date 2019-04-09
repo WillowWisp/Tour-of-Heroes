@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
    declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
       HeroesComponent,
       HeroDetailComponent,
       MessagesComponent,
-      DashboardComponent
+      DashboardComponent,
+      HeroSearchComponent
    ],
    imports: [
       BrowserModule,
